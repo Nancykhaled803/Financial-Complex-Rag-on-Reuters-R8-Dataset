@@ -18,7 +18,7 @@ import os
 from kaggle_secrets import UserSecretsClient
 
 os.environ["GROQ_API_KEY"] = UserSecretsClient().get_secret("GROQ_API_KEY")
-%run /kaggle/input/datasets/nancyelshaier/financial-rag-code/Financial_Rag/main.py
+%run /your-kaggle-DS-Directory/Financial_Rag/main.py
 ```
 
 When it prints `Enter your question:`, type one question and press Enter. For example: `Compare grain and crude oil market developments`.
